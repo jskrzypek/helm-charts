@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  coder:
+  - apiVersion: v2
+    appVersion: 0.9.10
+    created: "2022-10-13T16:17:46.518402-04:00"
+    description: Remote development environments on your infrastructure
+    digest: 9e77f81fc53738ef147d6798550b5f61e35c17184cb6f2b3aef6a9cc872e2e99
+    home: https://github.com/coder/coder
+    icon: https://helm.coder.com/coder_logo_black.png
+    keywords:
+    - coder
+    - terraform
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - email: support@coder.com
+      name: Coder Technologies, Inc.
+      url: https://coder.com/contact
+    name: coder
+    sources:
+    - https://github.com/coder/coder/tree/main/helm
+    type: application
+    urls:
+    - https://github.com/coder/coder/releases/download/v0.9.10/coder_helm_0.9.10.tgz
+    version: 0.9.10
+generated: "2022-10-13T16:17:46.517682-04:00"
